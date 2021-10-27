@@ -1,0 +1,73 @@
+/* Our CSS file. */
+
+
+.container, .content {
+width: 100%;
+}
+header{
+    border: 1px solid black;
+    margin: 10px;
+    height: auto;
+}
+form{
+    margin-top: 2%;
+    float: right;
+}
+.logo{
+    float:left;
+}
+nav{
+    clear: both;
+    border: 2px solid black;
+    margin:3px;
+    background: black;
+}
+.alink{
+    padding:2%;
+    margin-left:auto;
+    margin-right: auto;
+    width:50%;
+}
+a{
+    color: chartreuse;
+    text-decoration: none;
+    font-size: larger;
+    margin: 8%;
+}
+
+#aside1{
+    display: inline-block;
+    width: 20%;
+    border: 2px solid;
+    margin-left:2%;
+}
+
+#main-content-section{
+    margin-left: 2%;
+    display: inline-block;
+    width: 50%;
+    border: 2px solid black;
+}
+#aside2{
+    margin-left: 2%;
+    display: inline-block;
+    width: 20%;
+    border: 2px solid;
+}
+aside{
+    vertical-align:top;
+    background: rgb(242, 245, 249);
+}
+li{
+    margin:10%
+}
+img{
+    margin: 1.5% 8%;
+}
+
+footer{
+    padding: 5%;
+    text-align: justify;
+    margin-top: 10px;
+    background: rgb(231, 245, 231);
+}
